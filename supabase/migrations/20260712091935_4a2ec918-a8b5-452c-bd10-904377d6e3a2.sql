@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "topic_scoped_realtime_select" ON public.messages;

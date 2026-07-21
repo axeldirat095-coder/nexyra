@@ -1,0 +1,1 @@
+UPDATE public.pilot_steps SET status = 'done', completed_at = now() WHERE id = 'd8cae1b3-1f5a-4c48-8a88-87707afe3fe9';

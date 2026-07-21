@@ -1,0 +1,1 @@
+UPDATE public.capabilities SET status='done', updated_at=now() WHERE title ILIKE '%Lot 5.1%';

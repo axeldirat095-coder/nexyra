@@ -1,0 +1,1 @@
+UPDATE public.capabilities SET status = 'in_progress', started_at = COALESCE(started_at, now()), updated_at = now() WHERE id = '39a5b46d-13f8-498d-80a3-1461ece08b3d';

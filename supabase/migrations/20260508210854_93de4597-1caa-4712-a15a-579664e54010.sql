@@ -1,0 +1,1 @@
+UPDATE public.capabilities SET status='done', completed_at=now(), updated_at=now() WHERE id='26a0c92d-1765-4f9c-a09b-67edbe2b2b4f';

@@ -1,0 +1,1 @@
+UPDATE public.capabilities SET status='done', completed_at=now() WHERE category_id='elena-v3' AND title IN ('Lot 2 — Outils FS agent (read/write/edit/run/screenshot)','Lot 3 — Orchestrateur multi-agent (Architecte + Designer + Developer + QA)');

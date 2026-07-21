@@ -1,0 +1,27 @@
+{
+  "name": "Nexyra AI — Elena",
+  "short_name": "Nexyra",
+  "description": "Plateforme IA pour entrepreneurs et créateurs. Construis sites, web apps et apps mobiles avec Elena.",
+  "start_url": "/dev",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0A0A0F",
+  "theme_color": "#0A0A0F",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/images/nexyra-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/nexyra-logo-transparent.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["productivity", "developer", "business"]
+}
