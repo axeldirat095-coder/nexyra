@@ -5,5 +5,8 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["@webcontainer/api"],
     },
+    resolve: {
+      dedupe: ['@tanstack/react-query', '@tanstack/query-core'],
+    },
   },
 });
