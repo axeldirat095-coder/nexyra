@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ShieldAlert, User, LogOut, Maximize2, Minimize2 } from "lucide-react";
 import { useIsAdmin } from "@/hooks/useIsAdmin";
 import { useAuth } from "@/hooks/useAuth";
-import { supabase } from "@/integrations/supabase/client";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -23,8 +22,9 @@ export function Navbar() {
   const navigate = useNavigate();
   const isConnected = !!user;
 
+  const { signOut } = useAuth();
   const handleLogout = async () => {
-    await supabase.auth.signOut();
+    await signOut();
     toast.success("Déconnecté");
     navigate({ to: "/" });
   };
